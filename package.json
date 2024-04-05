@@ -1,0 +1,19 @@
+{
+  "name": "kafka-playground",
+  "version": "1.0.0",
+  "description": "Kafka playground node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "ts-node admin.ts"
+  },
+  "author": "Diego Ramos <rdiego26@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "ext": "ts",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

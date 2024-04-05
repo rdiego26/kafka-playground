@@ -39,7 +39,8 @@ services:
       context: .
       dockerfile: Dockerfile
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
     environment:
       NODE_ENV: development
     networks:

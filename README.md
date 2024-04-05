@@ -29,3 +29,8 @@ docker-compose exec kafka /opt/bitnami/kafka/bin/kafka-console-consumer.sh --top
 docker-compose exec kafka /opt/bitnami/kafka/bin/kafka-console-producer.sh --topic YOUR_TOPIC --broker-list localhost:9092
 ```
 After running the command above, you can type your message and press enter.
+
+
+## Tools
+Kafka UI it's available at http://localhost:8080
+![](https://ibb.co/VxT1cX7)

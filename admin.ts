@@ -1,6 +1,6 @@
 import kafka from './client';
 
-const TOPIC: string = 'STORE_NEW_ORDER';
+const TOPIC: string = 'STORE_NEW_PRODUCT';
 
 async function init() {
     const admin = kafka.admin();

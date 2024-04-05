@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "ts-node admin.ts"
+    "start": "tsc && node build/admin.js"
   },
   "author": "Diego Ramos <rdiego26@gmail.com>",
   "license": "MIT",
@@ -13,7 +13,10 @@
     "kafkajs": "^2.2.4"
   },
   "ext": "ts",
+  "exec": "ts-node admin.ts",
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "@types/node": "^20.12.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
   }
 }
